@@ -13,7 +13,7 @@ function App() {
       <div className="row m-0 mt-4 mt-sm-5">
         <NavigationBar />
         <Routes>
-          <Route path="/about" element={<AboutComponent />} />
+          <Route path="/" element={<AboutComponent />} />
           <Route path="/projects" element={<ProjectsComponent />} />
           <Route path="/contact" element={<ContactComponent />} />
         </Routes>

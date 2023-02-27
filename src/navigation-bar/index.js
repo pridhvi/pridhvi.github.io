@@ -10,8 +10,8 @@ const NavigationBar = () => {
     return (
         <div className='container d-flex justify-content-center mb-3 mb-md-5'>
             <div className='row nav nav-pills p-2 pe-4 rounded-pill bg-black shadow'>
-                <Link className="nav-link p-0 col-3 d-flex justify-content-center" to="/about">
-                    <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'about') ? 'active' : ''}`}>
+                <Link className="nav-link p-0 col-3 d-flex justify-content-center" to="/">
+                    <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === '') ? 'active' : ''}`}>
                         About
                     </span>
                 </Link>
