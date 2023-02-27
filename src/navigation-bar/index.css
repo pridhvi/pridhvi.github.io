@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(35, 35, 35) !important;
+}
+
+.nav-link>span {
+    color: rgb(156, 156, 156) !important;
+}
+
+.nav-link>span.active, .nav-link>span:hover {
+    background-color: rgb(50, 50, 50) !important;
+}
