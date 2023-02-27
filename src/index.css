@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(35, 35, 35) !important;
+}
+
+.wd-text-gray {
+    color: rgb(156, 156, 156) !important;
+}
+
+.wd-rounded-border {
+    border-radius: 30px;
+}
+
+.bg-gray {
+    background-color: rgb(50, 50, 50) !important;
+}
