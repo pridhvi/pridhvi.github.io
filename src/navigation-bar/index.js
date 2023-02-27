@@ -8,8 +8,8 @@ const NavigationBar = () => {
     const active = pathname.split('/')[1];
     
     return (
-        <div className='container d-flex justify-content-center'>
-            <div className='row nav nav-pills p-2 rounded-pill bg-black'>
+        <div className='container d-flex justify-content-center mb-3 mb-md-5'>
+            <div className='row nav nav-pills p-2 pe-4 rounded-pill bg-black'>
                 <Link className="nav-link p-0 col-4 d-flex justify-content-center" to="/about">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'about') ? 'active' : ''}`}>
                         About
@@ -22,7 +22,7 @@ const NavigationBar = () => {
                     </span>
                 </Link>
 
-                <Link className="nav-link p-0 col-4 d-flex justify-content-center" to="/contact">
+                <Link className="nav-link p-0 ps-3 col-4 d-flex justify-content-center" to="/contact">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'contact') ? 'active' : ''}`}>
                         Contact
                     </span>
