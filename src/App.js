@@ -10,7 +10,7 @@ import ContactComponent from './contact';
 function App() {
   return (
     <BrowserRouter>
-      <div className="row m-0 mt-3 mt-sm-5">
+      <div className="row m-0 mt-4 mt-sm-5">
         <NavigationBar />
         <Routes>
           <Route path="/about" element={<AboutComponent />} />
