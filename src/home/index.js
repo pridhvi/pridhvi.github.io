@@ -2,7 +2,7 @@ import React from 'react'
 import SkillsComponent from '../skills'
 import './index.css'
 
-const AboutComponent = () => {
+const HomeComponent = () => {
   return (
     <div className="container">
       <div className='row d-flex justify-content-center align-items-center'>
@@ -45,4 +45,4 @@ const AboutComponent = () => {
   )
 }
 
-export default AboutComponent
+export default HomeComponent
