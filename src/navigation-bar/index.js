@@ -16,19 +16,19 @@ const NavigationBar = () => {
                     </span>
                 </Link>
 
-                <Link className="nav-link p-0 ps-2 col-3 d-flex justify-content-center" to="/projects">
+                <Link className="nav-link p-0 col-3 d-flex justify-content-center" to="/projects">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'projects') ? 'active' : ''}`}>
                         Projects
                     </span>
                 </Link>
 
-                <Link className="nav-link p-0 ps-2 col-3 d-flex justify-content-center" to="/skills">
-                    <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'skills') ? 'active' : ''}`}>
-                        Skills
+                <Link className="nav-link p-0 ps-4 col-3 d-flex justify-content-center" to="/education">
+                    <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'education') ? 'active' : ''}`}>
+                        Education
                     </span>
                 </Link>
 
-                <Link className="nav-link p-0 ps-2 col-3 d-flex justify-content-center" to="/contact">
+                <Link className="nav-link p-0 ps-4 col-3 d-flex justify-content-center" to="/contact">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'contact') ? 'active' : ''}`}>
                         Contact
                     </span>
