@@ -6,6 +6,7 @@ import { HashRouter } from 'react-router-dom';
 import NavigationBar from './navigation-bar';
 import ProjectsComponent from './projects';
 import ContactComponent from './contact';
+import EducationComponent from './education';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AboutComponent />} />
           <Route path="/projects" element={<ProjectsComponent />} />
+          <Route path="/education" element={<EducationComponent />} />
           <Route path="/contact" element={<ContactComponent />} />
         </Routes>
         {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 

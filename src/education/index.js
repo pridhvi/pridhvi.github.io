@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectsComponent = () => {
+const EducationComponent = () => {
   return (
     <div className="container d-flex justify-content-center">
       <div className='col-11 col-sm-10 col-md-9 bg-gray row p-4 wd-rounded-border wd-text-gray shadow-lg'>
@@ -12,4 +12,4 @@ const ProjectsComponent = () => {
   )
 }
 
-export default ProjectsComponent
+export default EducationComponent
