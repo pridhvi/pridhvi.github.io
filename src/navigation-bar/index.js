@@ -12,7 +12,7 @@ const NavigationBar = () => {
 
             <Link className="nav-link p-0 ps-2 pe-2 d-flex justify-content-center align-items-center rounded-pill bg-black shadow" to="/">
                 <span className={`wd-text-gray rounded-pill p-1 pe-2 ps-2 ${(active === '') ? 'active' : ''}`}>
-                    <i class="bi bi-house-door-fill"></i>
+                    <i className="bi bi-house-door-fill"></i>
                 </span>
             </Link>
             

@@ -13,3 +13,7 @@ body {
 .bg-gray {
     background-color: rgb(50, 50, 50) !important;
 }
+
+.bg-gray-light {
+    background-color: rgb(62, 62, 62) !important;
+}

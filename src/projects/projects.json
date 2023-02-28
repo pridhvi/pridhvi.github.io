@@ -1,0 +1,11 @@
+[
+    {
+        "_id" : 1,
+        "title": "Secure Chat App",
+        "image": "./images/projects/secure-chat-app.gif",
+        "description": "A console based end-to-end encrypted chat application with self-designed authentication protocols entirely functioning using UDP.",
+        "githubLink": "https://github.com/pridhvi/secure-chat-app",
+        "websiteLink": "",
+        "techStack": ["Python", "Cryptograhy Primitives (hazmat library)", "UDP"]
+    }
+]
