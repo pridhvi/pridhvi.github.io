@@ -19,19 +19,19 @@ const NavigationBar = () => {
             <div className='row nav nav-pills ms-2 p-2 pe-3 rounded-pill bg-black shadow'>
 
 
-                <Link className="nav-link p-0 col-4 d-flex justify-content-center" to="/projects">
+                <Link className="nav-link p-0 col-6 d-flex justify-content-center" to="/projects">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'projects') ? 'active' : ''}`}>
                         Projects
                     </span>
                 </Link>
 
-                <Link className="nav-link p-0 ps-2 col-4 d-flex justify-content-center" to="/education">
+                {/* <Link className="nav-link p-0 ps-2 col-4 d-flex justify-content-center" to="/education">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'education') ? 'active' : ''}`}>
                         Education
                     </span>
-                </Link>
+                </Link> */}
 
-                <Link className="nav-link p-0 ps-3 col-4 d-flex justify-content-center" to="/contact">
+                <Link className="nav-link p-0 ps-2 col-6 d-flex justify-content-center" to="/contact">
                     <span className={`wd-text-gray rounded-pill p-1 pe-3 ps-3 ${(active === 'contact') ? 'active' : ''}`}>
                         Contact
                     </span>
