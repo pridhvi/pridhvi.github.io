@@ -6,6 +6,25 @@
         "description": "A console based end-to-end encrypted chat application with self-designed authentication protocols entirely functioning using UDP.",
         "githubLink": "https://github.com/pridhvi/secure-chat-app",
         "websiteLink": "",
-        "techStack": ["Python", "Cryptograhy Primitives (hazmat library)", "UDP"]
+        "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "UDP"]
+    },
+    {
+        "_id" : 2,
+        "title": "RSA AES-CBC Hybrid Encryption",
+        "image": "",
+        "description": "An implementation of a hybrid encryption system involving RSA, and AES256-CBC",
+        "githubLink": "https://github.com/pridhvi/rsa-aes-cbc-hybrid",
+        "websiteLink": "",
+        "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "RSA", "AES-CBC"]
+    },
+    {
+        "_id" : 3,
+        "title": "Tuiter",
+        "image": "./images/projects/tuiter.png",
+        "description": "I'm making a twitter clone as a learning project",
+        "githubLink": "https://github.com/pridhvi/tuiter-react-web-app",
+        "websiteLinkBackup": "https://creative-narwhal-57318b.netlify.app/tuiter/home",
+        "websiteLink": "https://a6--creative-narwhal-57318b.netlify.app/tuiter/home",
+        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "MongoDB"]
     }
 ]
