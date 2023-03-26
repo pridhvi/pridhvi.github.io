@@ -1,14 +1,5 @@
 [
     {
-        "_id" : 1,
-        "title": "Websteros",
-        "image": "",
-        "description": "Websteros is your ultimate destination for all things Game of Thrones. Explore the world of Westeros and beyond through our comprehensive database of shows, books, and characters. Log in to join the community, comment on your favorite episodes, and connect with other fans. Join the conversation and experience the intrigue, drama, and action of this epic series like never before.",
-        "githubLink": "https://github.com/pridhvi/websteros",
-        "websiteLink": "https://websteros.pridhvi.net/",
-        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB"]
-    },
-    {
         "_id" : 2,
         "title": "Tuiter",
         "image": "./images/projects/tuiter.png",
@@ -35,5 +26,14 @@
         "githubLink": "https://github.com/pridhvi/rsa-aes-cbc-hybrid",
         "websiteLink": "",
         "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "RSA", "AES-CBC"]
+    },
+    {
+        "_id" : 1,
+        "title": "Websteros - In Progress",
+        "image": "",
+        "description": "Websteros is your ultimate destination for all things Game of Thrones. Explore the world of Westeros and beyond through our comprehensive database of shows, books, and characters. Log in to join the community, comment on your favorite episodes, and connect with other fans. Join the conversation and experience the intrigue, drama, and action of this epic series like never before.",
+        "githubLink": "https://github.com/pridhvi/websteros",
+        "websiteLink": "https://websteros.pridhvi.net/",
+        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB"]
     }
 ]

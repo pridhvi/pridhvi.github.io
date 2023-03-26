@@ -34,9 +34,9 @@ const ProjectItem = ({ project }) => {
             </div>
 
             <div className='col-10 col-lg-5 p-2 ms-lg-3 wd-text-gray bg-gray-light wd-rounded-border pt-4 mb-3 mb-md-5 shadow-lg row'>
-                <h1 className='text-warning text-center'>
+                <h2 className='text-secondary text-center'>
                     Tech Stack
-                </h1>
+                </h2>
                 <p className='mt-3'>
                     <ul className='row'>
                         {project.techStack.map(tech => <li className='col-6'>{tech}</li>)}
