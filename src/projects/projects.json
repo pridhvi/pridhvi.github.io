@@ -1,6 +1,25 @@
 [
     {
         "_id" : 1,
+        "title": "Websteros",
+        "image": "",
+        "description": "Websteros is your ultimate destination for all things Game of Thrones. Explore the world of Westeros and beyond through our comprehensive database of shows, books, and characters. Log in to join the community, comment on your favorite episodes, and connect with other fans. Join the conversation and experience the intrigue, drama, and action of this epic series like never before.",
+        "githubLink": "https://github.com/pridhvi/websteros",
+        "websiteLink": "https://websteros.pridhvi.net/",
+        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB"]
+    },
+    {
+        "_id" : 2,
+        "title": "Tuiter",
+        "image": "./images/projects/tuiter.png",
+        "description": "I'm making a twitter clone as a learning project",
+        "githubLink": "https://github.com/pridhvi/tuiter-react-web-app",
+        "websiteLinkBackup": "https://tuiter.pridhvi.net/",
+        "websiteLink": "https://a7--creative-narwhal-57318b.netlify.app/tuiter/home",
+        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB"]
+    },
+    {
+        "_id" : 3,
         "title": "Secure Chat App",
         "image": "./images/projects/secure-chat-app.gif",
         "description": "A console based end-to-end encrypted chat application with self-designed authentication protocols entirely functioning using UDP.",
@@ -9,22 +28,12 @@
         "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "UDP"]
     },
     {
-        "_id" : 2,
+        "_id" : 4,
         "title": "RSA AES-CBC Hybrid Encryption",
         "image": "",
         "description": "An implementation of a hybrid encryption system involving RSA, and AES256-CBC",
         "githubLink": "https://github.com/pridhvi/rsa-aes-cbc-hybrid",
         "websiteLink": "",
         "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "RSA", "AES-CBC"]
-    },
-    {
-        "_id" : 3,
-        "title": "Tuiter",
-        "image": "./images/projects/tuiter.png",
-        "description": "I'm making a twitter clone as a learning project",
-        "githubLink": "https://github.com/pridhvi/tuiter-react-web-app",
-        "websiteLinkBackup": "https://creative-narwhal-57318b.netlify.app/tuiter/home",
-        "websiteLink": "https://a6--creative-narwhal-57318b.netlify.app/tuiter/home",
-        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "MongoDB"]
     }
 ]

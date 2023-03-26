@@ -1,6 +1,5 @@
 import React from 'react'
 import SkillsComponent from '../skills'
-import './index.css'
 
 const HomeComponent = () => {
   return (

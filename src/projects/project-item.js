@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ProjectItem = ({ project }) => {
     return (
@@ -9,26 +10,26 @@ const ProjectItem = ({ project }) => {
                 <p className='mt-3'>{project.description}</p>
 
                 {project.githubLink &&
-                    <div className={`${project.websiteLink && "col-6"} d-flex justify-content-center align-items-center`}>
+                    <Link to={project.githubLink} target="_blank" className={`${project.websiteLink && "col-6"} d-flex justify-content-center align-items-center text-decoration-none`}>
 
-                        <a href={project.githubLink} className="bi bi-github me-2" target="_blank"
+                        <i className="bi bi-github me-2"
                             style={{ "fontSize": "2rem", "color": "black" }}
                             data-toggle="tooltip" data-placement="bottom" title="GitHub link"
                         />
 
-                        <span className='d-none d-md-block'>GitHub</span>
-                    </div>
+                        <span className='d-none d-md-block wd-text-gray'>GitHub</span>
+                    </Link>
                 }
 
                 {project.websiteLink &&
-                    <div className={`${project.githubLink && "col-6"} d-flex justify-content-center align-items-center`}>
-                        <a href={project.websiteLink} className="bi bi-box-arrow-up-right me-2" target="_blank"
+                    <Link to={project.websiteLink} target="_blank" className={`${project.githubLink && "col-6"} d-flex justify-content-center align-items-center text-decoration-none`}>
+                        <i className="bi bi-box-arrow-up-right me-2"
                             style={{ "fontSize": "2rem", "color": "black" }}
                             data-toggle="tooltip" data-placement="bottom" title="GitHub link"
                         />
 
-                        <span className='d-none d-md-block'>Live Website</span>
-                    </div>
+                        <span className='d-none d-md-block wd-text-gray'>Live Website</span>
+                    </Link>
                 }
             </div>
 
