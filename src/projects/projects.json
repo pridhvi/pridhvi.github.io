@@ -1,5 +1,14 @@
 [
     {
+        "_id" : 1,
+        "title": "Playbook - In Progress",
+        "image": "",
+        "description": "Playbook is a web application that allows gamers to connect, share, and discover new games. Using the IGDB API, Playbook provides users with access to detailed information about games, including reviews, ratings, and gameplay footage. Users can create a profile, follow other gamers, and comment and like games they've played. With a sleek and modern dark mode design, Playbook is the ultimate destination for gamers looking to explore the world of gaming and connect with like-minded individuals.",
+        "githubLink": "https://github.com/pridhvi/playbook-react-app",
+        "websiteLink": "https://playbook.pridhvi.net/",
+        "techStack": ["React", "TypeScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB", "Vite"]
+    },
+    {
         "_id" : 2,
         "title": "Tuiter",
         "image": "./images/projects/tuiter.png",
@@ -26,14 +35,5 @@
         "githubLink": "https://github.com/pridhvi/rsa-aes-cbc-hybrid",
         "websiteLink": "",
         "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "RSA", "AES-CBC"]
-    },
-    {
-        "_id" : 1,
-        "title": "Websteros - In Progress",
-        "image": "",
-        "description": "Websteros is your ultimate destination for all things Game of Thrones. Explore the world of Westeros and beyond through our comprehensive database of shows, books, and characters. Log in to join the community, comment on your favorite episodes, and connect with other fans. Join the conversation and experience the intrigue, drama, and action of this epic series like never before.",
-        "githubLink": "https://github.com/pridhvi/websteros",
-        "websiteLink": "https://websteros.pridhvi.net/",
-        "techStack": ["React", "TypeScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB", "Vite"]
     }
 ]
