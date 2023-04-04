@@ -2,7 +2,7 @@
     {
         "_id" : 1,
         "title": "Playbook - In Progress",
-        "image": "",
+        "image": "./images/projects/playbook.png",
         "description": "Playbook is a web application that allows gamers to connect, share, and discover new games. Using the IGDB API, Playbook provides users with access to detailed information about games, including reviews, ratings, and gameplay footage. Users can create a profile, follow other gamers, and comment and like games they've played. With a sleek and modern dark mode design, Playbook is the ultimate destination for gamers looking to explore the world of gaming and connect with like-minded individuals.",
         "githubLink": "https://github.com/pridhvi/playbook-react-app",
         "websiteLink": "https://playbook.pridhvi.net/",
