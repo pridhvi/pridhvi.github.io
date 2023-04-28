@@ -1,37 +1,36 @@
 [
     {
         "_id" : 1,
-        "title": "Playbook - In Progress",
+        "title": "Playbook",
         "image": "./images/projects/playbook.png",
-        "description": "Playbook is a web application that allows gamers to connect, share, and discover new games. Using the IGDB API, Playbook provides users with access to detailed information about games, including reviews, ratings, and gameplay footage. Users can create a profile, follow other gamers, and comment and like games they've played. With a sleek and modern dark mode design, Playbook is the ultimate destination for gamers looking to explore the world of gaming and connect with like-minded individuals.",
+        "description": "Playbook is a web application that allows gamers to connect, share, and discover new games. Using the IGDB API, Playbook provides users with access to detailed information about games, including reviews, ratings, and gameplay footage. Users can create a profile, follow other gamers, and comment and like games they've played.",
         "githubLink": "https://github.com/pridhvi/playbook-react-app",
         "websiteLink": "https://playbook.pridhvi.net/",
         "techStack": ["React", "TypeScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB", "Vite"]
     },
     {
         "_id" : 2,
-        "title": "Tuiter",
-        "image": "./images/projects/tuiter.png",
-        "description": "I'm making a twitter clone as a learning project",
-        "githubLink": "https://github.com/pridhvi/tuiter-react-web-app",
-        "websiteLinkBackup": "https://tuiter.pridhvi.net/",
-        "websiteLink": "https://a9--creative-narwhal-57318b.netlify.app/tuiter/home",
-        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB"]
-    },
-    {
-        "_id" : 3,
         "title": "Secure Chat App",
         "image": "./images/projects/secure-chat-app.gif",
-        "description": "A console based end-to-end encrypted chat application with self-designed authentication protocols entirely functioning using UDP.",
+        "description": "A console based python end-to-end encrypted chat application with self-designed authentication protocols entirely functioning using UDP.",
         "githubLink": "https://github.com/pridhvi/secure-chat-app",
         "websiteLink": "",
         "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "UDP"]
     },
     {
+        "_id" : 3,
+        "title": "Tuiter",
+        "image": "./images/projects/tuiter.png",
+        "description": "Unfinished twitter clone as a learning project",
+        "githubLink": "https://github.com/pridhvi/tuiter-react-web-app",
+        "websiteLink": "https://tuiter.pridhvi.net/",
+        "techStack": ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "Redux", "Node.js", "Express", "MongoDB"]
+    },
+    {
         "_id" : 4,
         "title": "RSA AES-CBC Hybrid Encryption",
         "image": "",
-        "description": "An implementation of a hybrid encryption system involving RSA, and AES256-CBC",
+        "description": "An python implementation of a hybrid encryption system involving RSA, and AES256-CBC",
         "githubLink": "https://github.com/pridhvi/rsa-aes-cbc-hybrid",
         "websiteLink": "",
         "techStack": ["Python", "Cryptograhy Primitives (hazmat)", "RSA", "AES-CBC"]
